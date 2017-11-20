@@ -37,5 +37,10 @@ namespace UsersManager.Controllers
             //    }
             //};
         }
+
+        public string Put([FromBody]string value)
+        {
+            return "Put returning: " + value;
+        }
     }
 }
